@@ -1,0 +1,179 @@
+
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DATASCIENCE</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Courier New', Courier, monospace;
+                        }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+		background-color:rgb(76, 38, 156);
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color:gold;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: yellow;
+            }
+            form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder {
+                color: white;
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color:black;
+                border-radius: 10px;
+                background:gold;
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color:gold;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .container {
+                background: transparent;
+                padding: 10px 5%;
+                padding-bottom: 100px;
+            }
+            .container .box-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                gap: 20px;
+            }
+            .container .box-container .box {
+                color: white;
+                box-shadow: 0 5px 10px rgba(0,0,0,.2);
+                border-radius: 10px;
+                background: transparent;
+                border: 1px solid white;
+                padding: 10px 5px;
+            }
+            .container .box-container .box img {
+                height: 50px;
+                border-radius: 20px;
+            }
+            .container .box-container .box h3 {
+                color: gold;
+                font-size: larger;
+                padding: 10px 0;
+            }
+            .container .box-container .box p {
+                color: white;
+                font-size: larger;
+                line-height: 1.5;
+            }
+            footer {
+                background-color: gold;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body background="image.webp">
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo"><span> Code Junction</span></h1>
+            <ul>
+                <li><a href="homepage.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="person.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="box-container">
+                <div class="box">
+                    <img src="python.png" alt="">
+                    <h3>Python</h3>
+                    <p>Where simplicity meets power in the world of programming.</p>
+                </div>
+
+                <div class="box">
+                    <img src="html.png" alt="">
+                    <h3>HTML</h3>
+                    <p>designed to be displayed in a web browser. It defines the content and structure of web content. </p>
+                </div>
+                <div class="box">
+                    <img src="css.png"alt="">
+                    <h3>CSS</h3>
+                    <p>CSS basics walks through what you need to get started.a simple mechanism for adding style</p>
+                </div>
+               
+                <div class="box">
+                    <img src="php.png" alt="">
+                    <h3>PHP</h3>
+                    <p>a server scripting language, and a powerful tool for making dynamic and interactive Web pages. </p>
+                </div>
+                <div class="box">
+                    <img src="ruby.png" alt="">
+                    <h3>RUBY</h3>
+                    <p> open source programming language with a focus on simplicity and productivity..</p>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center> Copyright@2024 Developed by THIRUMALAI V </center>
+    </footer>
+</body>
+</html>
